@@ -1,0 +1,103 @@
+#about{
+  margin-top: 50px;
+}
+.child1-a img{
+  border-radius: 10px;
+  margin-right: 40px;
+  width: 250px;
+}
+
+.child3-a {
+justify-content: space-between;
+display: flex;
+background-color: black;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+
+.child3-a div {
+color: black;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.about-section {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  display: flex;
+}
+#about{
+  font-family: 'Lato', sans-serif;
+  margin: 2em 0 5em 0;
+  color: #000000;
+}
+
+#about h1{
+  color: black;
+  margin-bottom: 2em;
+  font-size: 2.2rem;
+  text-align: center;
+}
+#main1 h2{
+  font-size: 2rem;
+}
+#main1{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+} 
+#main1 h1,p,h3{
+  padding: 18px 0;
+  color: black;
+}
+.child2-a{
+  display:inline;
+}
+
+#main1 p{
+    font-size: 1.2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Add margin bottom for proper spacing */
+    text-indent: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    #about{
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+    #about h2 {
+        width: 90%;
+        margin: 1rem auto 3em auto;
+        font-size: 1.1rem;
+        text-align:justify;
+    } 
+    #main1{
+        margin: 0 auto;
+        width: 80%;
+        display: block;
+      }
+      .child1-a img{
+        display: block;
+        border-radius: 10px;
+        margin-right: 40px;
+        margin: auto;
+        width: 50%;
+      }
+     .child2-a h3{
+        text-align: center;
+     }
+     #main1 h1,.main1 p,.main1 h3{
+        padding: 0 0;
+        color: black;
+      }
+}
+ 
+
+
+
+

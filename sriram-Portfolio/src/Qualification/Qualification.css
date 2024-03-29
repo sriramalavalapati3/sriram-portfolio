@@ -1,0 +1,113 @@
+
+.qualification_container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .qualification__tabs {
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px; /* Add margin bottom as needed */
+  }
+  
+  .qualification__button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 20px; /* Add padding as needed */
+    border-radius: 5px; /* Add border radius as needed */ 
+  }
+  .qualification__button {
+    transition: background-color 0.3s ease;
+  }
+  
+  #journey:hover,#graduation:hover{
+  color: rgb(108, 238, 108);
+  background-color: #f0f0f0;
+  }
+  .click{
+    background-color:rgb(108, 238, 108);
+    color: black;
+  }
+  .active{
+    background-color:rgb(108, 238, 108);
+    color: black;
+  }
+  span{
+    font-size: 25px;
+    color: hsl(120, 5%, 62%);
+  }
+  
+  .qualification__sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color:rgb(108, 238, 108);
+    border-radius: 50%;
+  }
+  .line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: rgb(108, 238, 108);
+    transform: translate(6px, -7px);
+  }
+  .Data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;;
+  }
+  .heading{
+    margin: 0;
+  }
+  .subHeading{
+    margin:0
+  }
+  .qualification__content {
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .qualification__content.hidden {
+    opacity: 0;
+    pointer-events: none; /* Hide the content and disable pointer events when hidden */
+  }
+  .content{
+    box-sizing: border-box;
+    margin-left:250px;
+    padding:0;
+  }
+  @media screen and (max-width: 768px){
+    .heading{
+        font-size: 15px;
+    }
+    .subHeading{
+        font-size: 12px;
+    }
+    .calender{
+        font-size: 10px !important;
+    }
+    .bx bx-calendar{
+        font-size: 10px !important;
+    }
+    .content{
+      box-sizing: border-box;
+      margin-left:10px;
+      padding:0;
+    }
+    #journey{
+     font-size: 20px;
+    }
+    #graduation{
+     font-size: 20px;
+    }
+  }

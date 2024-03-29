@@ -1,0 +1,66 @@
+#skills{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.skills-container{
+  height:100vh;
+  align-items: center;
+}
+.skillsContainer{
+    width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: 0 auto;
+  column-gap: 20px;
+
+}
+.frontedContainer,.backendContainer{
+ border-radius: 5px;
+ background-color:whitesmoke;
+ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ padding-bottom: 20px;
+}
+.Skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.frontendSkills{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.percentageLine {
+    height:3px; /* Adjust the height of the line as needed */ /* Adjust the width (percentage) of the line based on skill proficiency */
+    background-color: rgb(108, 238, 108); /* Color of the line */
+    margin-top: 5px; /* Adjust margin as needed */
+  }
+.percentageBar{
+    background-color: white;
+     width: 90%;
+      text-align: center;
+     height: 5px;
+      border-radius: 10px;
+      display:flex;
+      align-items:center;
+      justify-items:center
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .skillsContainer{
+        width: 90%;
+      grid-template-columns: repeat(1, 2fr);
+      margin: 0 auto;
+      row-gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .skillsContainer{
+     width: 100%;
+      grid-template-columns: repeat(1, 1fr);
+      margin: 0 auto 0 10px;
+      row-gap: 15px;
+    }
+  }
