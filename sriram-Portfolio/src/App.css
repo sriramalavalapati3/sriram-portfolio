@@ -56,3 +56,19 @@ body{
   flex-direction: column;
   gap: 100px;
 }
+.resumeButton{
+  width:130px;
+  height:55px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: rgb(108, 238, 108) ;
+  border-radius: 5px;
+}
+.resumeButton:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect when clicked */
+  transform: translateY(2px); /* Move the button down by 2 pixels when clicked */
+}
+

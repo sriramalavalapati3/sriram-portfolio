@@ -5,6 +5,9 @@
     width: 100%;
     position:fixed;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   
   .navbar-container {
     display: flex;

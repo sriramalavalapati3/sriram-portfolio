@@ -1,6 +1,7 @@
 import About from './About/About';
 import './App.css';
 import Contact from './Contact/Contact';
+import GitHubActivity from './GithubActivity/GithubActivity';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 import Projects from './Projects/Project';
@@ -20,6 +21,8 @@ function App() {
      <Projects/>
      <hr class='breakLine'></hr>
      <Skills/>
+     <hr class='breakLine'></hr>
+     <GitHubActivity/>
      <hr class='breakLine'></hr>
      <Contact/>
     </div>

@@ -1,8 +1,25 @@
 import React from 'react';
 import './Home.css';
-import ProfilePic from '../ProfilePic.png'
+import ProfilePic from '../ProfilePic.png';
+import resume from '../images/Alavalapati_Deva_SriRam_Resume.pdf'
 
 const Home = () => {
+    const handleDownload = () => {
+        // Replace 'resume.pdf' with the actual file name of your resume
+        const resumeUrl = resume; // Specify the path to your resume file
+    
+        // Create a temporary link element
+        const link = document.createElement('a');
+        link.href = resumeUrl;
+        link.download = 'Alavalapati_Deva_Sriram_Resume.pdf'; // Specify the default file name for download
+    
+        // Append the link to the document body and trigger the download
+        document.body.appendChild(link);
+        link.click();
+    
+        // Cleanup: remove the temporary link element
+        document.body.removeChild(link);
+      };
     return(
         <>
         <div className='Home' id='Home'>
@@ -34,11 +51,11 @@ const Home = () => {
                 </div>
              <div className='BioData'>
                 <h1>Hi,i'm Sriram</h1>
-                <h3>I am full stack web developer</h3>
+                <h3>Full stack web developer</h3>
              <p>Passionate about building with Node.js for backend and React.js for frontend, adept in Socket.IO and WebRTC for creating real-time applications. Proficient in Jest, Chai, and Mocha for testing, with experience in Docker for containerization. Eager to learn and innovate!</p>
                 </div>
             </div>
-            <div></div>
+            <div><button className='resumeButton' onClick={handleDownload}><i class='bx bx-cloud-download'>Resume</i></button></div>
         </div>
         </>
     )

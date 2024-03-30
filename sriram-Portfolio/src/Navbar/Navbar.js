@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Import your CSS file for styling
+import resume from '../images/Alavalapati_Deva_SriRam_Resume.pdf'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,8 @@ const Navbar = () => {
           <a href="#skills" className="navbar-link" onClick={closeMenu}><i class='bx bxs-file' >Skills</i></a>
           <a href="#projects" className="navbar-link" onClick={closeMenu}><i class='bx bxs-briefcase' >Projects</i></a>
           <a href="#ContactMe" className="navbar-link"onClick={closeMenu} ><i class='bx bxs-mobile' >ContactMe</i></a>
-          <a href="#resume" className="navbar-link" onClick={closeMenu}><i class='bx bx-paperclip bx-flashing' ></i>Resume</a> 
+          <a href={resume} className="navbar-link" onClick={closeMenu} target="_blank"
+           rel="noreferrer" download="Alavalapati_Deva_SriRam_Resume"><i class='bx bx-paperclip bx-flashing' ></i>Resume</a> 
         </div>
       </div>
     </nav>
