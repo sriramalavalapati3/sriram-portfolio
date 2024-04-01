@@ -15,8 +15,7 @@ const About = () => {
             <div class="child2-a">
 
                 <h3>Full Stack Web Developer</h3>
-                <p id="user-detail-intro"> 
-                 Enthusiastic about learning and expressing new technology. An aspiring node developer with knowledge of Express.js, JavaScript, Node.js, MySql, MongoDB, TypeScript,
+                <p id="user-detail-intro"> Enthusiastic about learning and expressing new technology. An aspiring node developer with knowledge of Express.js, JavaScript, Node.js, MySql, MongoDB, TypeScript,
                  and over 1 year of practical experience in coding and building numerous scalable websites. Solved 700+ DSA questions. Strong ambition to work as a backend developer to produce valuable solution
                 </p>
                 <div class="child3-a">
