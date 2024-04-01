@@ -25,7 +25,13 @@ function Contact() {
                     <div className="contact__information">
                         <a href="mailto:sriramalavalapatiit01@gmail.com" className='contacts'>
                             <i className="uil uil-envelope-alt contact__icon"></i>
-                            <h3 className="contact__title">Email</h3>
+                            <h3 className="contact__title">sriramalavalapatiit01@gmail.com</h3>   
+                        </a>
+                    </div>
+                    <div className="contact__information">
+                        <a href="mailto:sriramalavalapatiit01@gmail.com" className='contacts'>
+                        <i class='bx bxs-phone-call contact__icon' ></i>
+                            <h3 className="contact__title">+917013417056</h3>
                         </a>
                        
                     </div>
@@ -38,7 +44,7 @@ function Contact() {
                     </div>
 
                     <div className="contact__information" style={{display:'flex',flexDirection:'column',}}>
-                        <div className='contacts' style={{marginRight:'65px'}}>
+                        <div className='contacts' style={{marginRight:'200px'}}>
                         <i className="uil uil-map-marker contact__icon"></i>
                         <h3 className="contact__title">Location</h3>
                         </div>
