@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Import your CSS file for styling
-import resume from '../images/Alavalapati_Deva_SriRam_Resume.pdf'
+import resume from '../images/Alavalapati_Deva_SriRam_Resume.pdf';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
