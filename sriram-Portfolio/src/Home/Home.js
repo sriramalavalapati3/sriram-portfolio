@@ -50,7 +50,7 @@ const Home = () => {
              </div>
                 </div>
              <div className='BioData'>
-                <h1>Hi,i'm Sriram</h1>
+                <h1>Hi,I'm Sriram</h1>
                 <h3>Full stack web developer</h3>
              <p>Passionate about building with Node.js for backend and React.js for frontend, adept in Socket.IO and WebRTC for creating real-time applications. Proficient in Jest, Chai, and Mocha for testing, with experience in Docker for containerization. Eager to learn and innovate!</p>
                 </div>

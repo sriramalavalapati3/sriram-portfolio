@@ -56,8 +56,8 @@ const Projects = () => {
     <br />
     <div class="card-links">
       
-      <a class="btn" href='www.google.com' target="_blank" rel="noopener noreferrer"><i class='bx bxl-netlify'></i>Visit Site</a>
-      <a class="btn" href='www.google.com' target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i>View Code</a>
+      <a class="btn" href='https://singular-axolotl-96063b.netlify.app/' target="_blank" rel="noopener noreferrer"><i class='bx bxl-netlify'></i>Visit Site</a>
+      <a class="btn" href='https://github.com/sriramalavalapati3/cumbersome-things-27' target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i>View Code</a>
     </div>
   </div>
         </div>
