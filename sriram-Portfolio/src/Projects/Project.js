@@ -105,7 +105,7 @@ const Projects = () => {
     <p class="tech">Features - <b>login | upload,Delete,Edit Youtube embeded Videos| Jwt Token | Logout | Black-Listing | </b></p>
     <br />
     <div class="card-links">
-      <a class="btn" href='https://bcube-pxhy80zkk-sriramalavalapati3s-projects.vercel.app' target="_blank" rel="noopener noreferrer"><i class='bx bxl-netlify'></i>Visit Site</a>
+      <a class="btn" href='https://bcube-peach.vercel.app/' target="_blank" rel="noopener noreferrer"><i class='bx bxl-netlify'></i>Visit Site</a>
       <a class="btn" href='https://github.com/sriramalavalapati3/Youtube-admin' target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i>View Code</a>
     </div>
   </div>
